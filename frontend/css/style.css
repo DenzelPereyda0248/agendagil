@@ -10,7 +10,6 @@ background:#f6f6f6;
 min-height:100vh;
 }
 
-/* FRANJAS */
 .franja{
 position:fixed;
 top:0;
@@ -27,7 +26,6 @@ left:0;
 right:0;
 }
 
-/* NAVBAR */
 
 .navbar{
 display:flex;
@@ -44,7 +42,6 @@ top:0;
 z-index:10;
 }
 
-/* LOGO */
 
 .logo{
 display:flex;
@@ -60,7 +57,6 @@ color:#42a3be;
 font-size:24px;
 }
 
-/* MENU */
 
 .nav-menu{
 display:flex;
@@ -92,7 +88,6 @@ color:#66848d;
 color:#42a3be;
 }
 
-/* CONTENIDO */
 
 .contenido{
 max-width:900px;
@@ -103,7 +98,6 @@ margin-top:40px;
 box-shadow:0 0 10px rgba(0,0,0,0.05);
 }
 
-/* HERO */
 
 .hero{
 
@@ -145,7 +139,6 @@ letter-spacing:2px;
 }
 
 
-/* INFO CARDS */
 
 .info-cards{
 
@@ -187,8 +180,6 @@ color:#4FA3D1;
 
 }
 
-
-/* ABOUT */
 
 .about{
 
