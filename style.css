@@ -1,0 +1,277 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f6f6f6;
+min-height:100vh;
+}
+
+/* FRANJAS */
+.franja{
+position:fixed;
+top:0;
+width:120px;
+height:100%;
+background:#ececec;
+}
+
+.izquierda{
+left:0;
+}
+
+.derecha{
+right:0;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:15px 40px;
+
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+
+position:sticky;
+top:0;
+z-index:10;
+}
+
+/* LOGO */
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+
+font-size:20px;
+font-weight:bold;
+color:#42a3be;
+}
+
+.logo i{
+font-size:24px;
+}
+
+/* MENU */
+
+.nav-menu{
+display:flex;
+gap:35px;
+}
+
+.nav-menu a{
+text-decoration:none;
+color:#444;
+font-size:14px;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:5px;
+
+transition:0.3s;
+}
+
+.nav-menu i{
+font-size:18px;
+}
+
+.nav-menu a:hover{
+color:#66848d;
+}
+
+.nav-menu .active{
+color:#42a3be;
+}
+
+/* CONTENIDO */
+
+.contenido{
+max-width:900px;
+margin:auto;
+padding:60px 30px;
+background:white;
+margin-top:40px;
+box-shadow:0 0 10px rgba(0,0,0,0.05);
+}
+
+/* HERO */
+
+.hero{
+
+height:500px;
+
+background:
+linear-gradient(to right, rgba(31,58,95,0.2), rgba(31,58,95,0.9)),
+url("../img/hero.png");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:flex-end;
+
+padding-right:80px;
+
+color:white;
+}
+
+.hero-text h1{
+
+font-size:50px;
+font-weight:bold;
+
+}
+
+.hero-text h2{
+
+font-size:40px;
+}
+
+.hero-text h3{
+
+font-weight:300;
+letter-spacing:2px;
+
+}
+
+
+/* INFO CARDS */
+
+.info-cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+padding:60px;
+
+background:#F4F6F8;
+
+}
+
+.card{
+
+background:#8F8F8F;
+
+color:white;
+
+width:260px;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:6px;
+
+}
+
+.card i{
+
+font-size:35px;
+
+margin:15px 0;
+
+color:#4FA3D1;
+
+}
+
+
+/* ABOUT */
+
+.about{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:60px;
+
+padding:80px;
+
+background:linear-gradient(#D9E6F2,#9DB7CF);
+
+}
+
+.about-img img{
+
+width:250px;
+
+border-radius:50%;
+
+}
+
+.about-text{
+
+max-width:500px;
+
+}
+
+.about-text h2{
+
+margin-bottom:20px;
+
+}
+
+
+/* DOCTORS */
+
+.doctors{
+
+padding:80px;
+
+text-align:center;
+
+background:#E9EEF3;
+
+}
+
+.doctors h1{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+color:#1F3A5F;
+
+}
+
+.doctor-grid{
+
+margin-top:40px;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:40px;
+
+}
+
+.doctor img{
+
+width:140px;
+
+height:140px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:10px;
+
+}
+
