@@ -13,7 +13,6 @@ body{
     align-items:center;
 }
 
-/* CONTENEDOR */
 .container{
     display: flex;
     position:relative;
@@ -25,7 +24,6 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* FORMULARIOS */
 .form-container{
     position:absolute;
     top:0;
@@ -38,13 +36,11 @@ body{
     z-index:2;
 }
 
-/* LOGIN (visible por defecto - izquierda) */
 .login{
     left:0;
     z-index:2;
 }
 
-/* REGISTER (lado derecho oculto) */
 .register{
     left:50%;
     opacity:0;
@@ -86,7 +82,6 @@ button:hover{
     background:#2f6f88;
 }
 
-/* PANEL OVERLAY */
 .overlay{
     position:absolute;
     right:0;
@@ -119,7 +114,6 @@ button:hover{
 }
 
 
-/*  REGISTRO */
 .container.show-register .login{
     transform: translateX(-100%);
     opacity:0;
@@ -132,7 +126,6 @@ button:hover{
     
 }
 
-/*  RECUPERAR */
 .container.show-recover .login{
     transform: translateX(-100%);
     z-index: 2;
@@ -151,7 +144,6 @@ button:hover{
     filter: brightness(0.9);
 }
 
-/* Bordes bonitos */
 .overlay{
     border-radius: 0 20px 20px 0;
 }
